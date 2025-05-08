@@ -51,7 +51,7 @@ useEffect(
 
         </div>
       ))
-    : <h1 className="no-data">No data</h1>
+    : <h1 className="no-data" style={{color:"white"}} >No data</h1>
   }
 </div>
 </div>

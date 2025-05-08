@@ -1,0 +1,53 @@
+.containe {
+    display: flex;
+    gap: 2rem;
+    padding: 2rem;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+  }
+  .containe2 {
+    display: flex;
+ align-items: center;
+ justify-content: center;
+    flex-direction: row;
+  }
+  
+  .box {
+
+    border: 1px solid #ccc;
+    padding: 1rem;
+    border-radius: 10px;
+    width: 20rem;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  }
+  
+  input {
+    display: block;
+    margin: 10px 0;
+    padding: 8px;
+    width: 90%;
+  }
+  
+  button {
+    padding: 8px 12px;
+    background-color: #2196F3;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #1976D2;
+  }
+  
+  .Nav{
+    background-color: #494646;
+    width: 100%;
+    align-items: end;
+    display: flex;
+    justify-content: end;
+padding: 0.5rem;
+  }

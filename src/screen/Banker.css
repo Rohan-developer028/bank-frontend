@@ -1,0 +1,46 @@
+.container {
+    padding: 2rem;
+    font-family: Arial, sans-serif;
+    display: grid;
+    background-color: #f0f4f8;
+    justify-content: center;
+  }
+  
+  .customer-card {
+    border: 0.1rem solid #cbd5e1;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    width: 80%;
+    display: grid;
+    gap: 1rem;
+    background-color: #ffffff;
+  }
+  
+  .customer-card div {
+    margin: 0.5rem 0;
+    font-size: 1rem;
+    color: #6b6c6e;
+  }
+  
+  .customer-card button {
+    padding: 0.6rem 1.2rem;
+    font-size: 1rem;
+    background-color: #0077b6;
+    color: white;
+    border: none;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    width: 10rem;
+  }
+  
+  .customer-card button:hover {
+    background-color: #023e8a;
+  }
+  
+  .no-data {
+    font-size: 1.5rem;
+    color: #6b7280;
+    text-align: center;
+  }
+  

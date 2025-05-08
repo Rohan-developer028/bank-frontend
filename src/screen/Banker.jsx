@@ -7,6 +7,8 @@ const Banker=()=>{
  const nav=useNavigate()
     const[info,setInfo]=useState('')
     const[log,setLog]=useState(false)
+     const [activatedlog,setActivatedLog]=useState("")
+
     const auth=JSON.parse(localStorage.getItem('banker'))
 
     const load=async() =>{
@@ -49,10 +51,8 @@ const Banker=()=>{
           <div>Customer Name:- <strong>{data.name}</strong> </div>
           <div>Customer id:- {data._id}</div>
           <div>Balance:- {data.balance}</div>
-          <div><button onClick={()=>setLog(true)} >Transaction log</button></div>
-         {console.log(data._id)}
-          {log && <Log uid={data._id} log={setLog}/>}
-
+          <div><button onClick={()=>{setLog(true); setActivatedLog(data._id);}} >Transaction log</button></div>
+          {log && <Log uid={activatedlog} log={setLog}/>}
         </div>
       ))
     : <h1 className="no-data">No data</h1>

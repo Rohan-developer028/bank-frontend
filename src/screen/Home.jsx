@@ -64,6 +64,7 @@ useEffect(() => {
       console.log(data.data.balance)
     setBalance(data.data.balance)
     console.log(Balance)
+      setDeposit('')
       toast.success("deposit successfull",toastoption)
 
     }
@@ -92,6 +93,7 @@ useEffect(() => {
       console.log(data.data.balance)
     setBalance(data.data.balance)
     console.log(Balance)
+      setWithdraw(' ')
     toast.success("withdraw successfull",toastoption)
 
     

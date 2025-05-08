@@ -50,6 +50,7 @@ const Banker=()=>{
           <div>Customer id:- {data._id}</div>
           <div>Balance:- {data.balance}</div>
           <div><button onClick={()=>setLog(true)} >Transaction log</button></div>
+         {console.log(data._id)}
           {log && <Log uid={data._id} log={setLog}/>}
 
         </div>
